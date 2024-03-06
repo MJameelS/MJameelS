@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootsrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+   
+    <!-- AKHIR NAVBAR -->
+
+      <!-- SLIDE GAMBAR -->
+
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-t-shirt-outline-illustration_23-2150927674.jpg?t=st=1709701269~exp=1709704869~hmac=fdd4cff71241efa9ea0a37216dd73311cf1d2543afbae09b14745b8254570b6f&w=2000" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://img.freepik.com/premium-photo/black-t-shirts-with-copy-space_53876-102012.jpg?w=2000" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-photo/white-t-shirts-with-copy-space-gray-background_53876-104920.jpg?t=st=1709702105~exp=1709705705~hmac=9d549aad8190f681b01704eb83f2cf56fe896e656f7c9ec13b1c7986e21cfc2c&w=2000" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-photo/long-sleeve-shirt-with-front-back-view-blue-background_53876-102086.jpg?t=st=1709707806~exp=1709711406~hmac=fb4204e7fa53a6f383166fafa12dbc965d0388bd7c15cf760801a8e992438d92&w=2000" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-vector/classic-mens-white-shirt_1441-2790.jpg?t=st=1709707891~exp=1709711491~hmac=eea1df65e27b1496a6ee23984371a5dccec2d9a9a68bde52262744ae629356fa&w=2000" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AKHIR SLIDE GAMBAR -->
+
+      <!-- INFORMASI -->
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia quisquam error repellendus veritatis aut tempora nemo iste nihil ullam non earum voluptatibus, laborum dolor, quia quae vitae. Quo deserunt autem fugit quis. Sequi nobis consequatur cupiditate aspernatur at, reiciendis fuga. Soluta voluptatem quas eveniet eos tempore reprehenderit, repellat corrupti molestiae earum, eius quae neque quibusdam harum, iusto nisi officiis? Dolore nobis temporibus vitae possimus magni sapiente atque nulla, fugiat accusantium placeat perferendis quae odit, ut fugit aut, porro dolorem illo aliquam neque ducimus unde expedita. Amet nam, voluptate iusto est aut quidem vitae ex sint, voluptas doloribus vero alias tempora?</p>
+          </div>
+         </div>
+      </div>
+      <!-- AKHIR INFORMASI -->
+
+      <!-- VIDEO -->
+      <div class="container text-center mt-5 mb-5">
+        <div class="row">
+          <div class="col">
+            <video width="600" controls>
+                <source src="iklan.mp4" type="video/mp4">
+                <source src="iklan.ogg" type="video/ogg">
+                Your browser does not support HTML video.
+              </video>  
+          </div>
+         </div>
+      </div>
+      
+      
+      <!-- AKHIR VIDEO -->
+
+      <!-- CARD GAMBAR --> 
+
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left: 13em;">
+                <img id="kaos" src="https://img.freepik.com/free-vector/hand-drawn-t-shirt-outline-illustration_23-2150927674.jpg?t=st=1709701269~exp=1709704869~hmac=fdd4cff71241efa9ea0a37216dd73311cf1d2543afbae09b14745b8254570b6f&w=2000" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kaos Polos Putih</h5>
+                  <p class="card-text">Rp.150.000</p>
+                  <a href="#" class="btn btn-primary">Tambah <br>
+                      <i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://img.freepik.com/premium-photo/black-t-shirts-with-copy-space_53876-102012.jpg?w=2000" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kaos Polos Hitam</h5>
+                  <p class="card-text">Rp.180.000.</p>
+                  <a href="#" class="btn btn-primary">Tambah <br>
+                    <i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://img.freepik.com/free-photo/white-t-shirts-with-copy-space-gray-background_53876-104920.jpg?t=st=1709702105~exp=1709705705~hmac=9d549aad8190f681b01704eb83f2cf56fe896e656f7c9ec13b1c7986e21cfc2c&w=2000" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kaos Putih Lengan Pendek</h5>
+                  <p class="card-text">Rp.175.000</p>
+                  <a href="#" class="btn btn-primary">Tambah <br>
+                    <i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img id="kemeja" src="https://img.freepik.com/free-photo/long-sleeve-shirt-with-front-back-view-blue-background_53876-102086.jpg?t=st=1709707806~exp=1709711406~hmac=fb4204e7fa53a6f383166fafa12dbc965d0388bd7c15cf760801a8e992438d92&w=2000" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kemeja Lengan Panjang</h5>
+                  <p class="card-text">Rp.250.000</p>
+                  <a href="#" class="btn btn-primary">Tambah <br>
+                    <i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://img.freepik.com/free-vector/classic-mens-white-shirt_1441-2790.jpg?t=st=1709707891~exp=1709711491~hmac=eea1df65e27b1496a6ee23984371a5dccec2d9a9a68bde52262744ae629356fa&w=2000" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kemeja Putih</h5>
+                  <p class="card-text">Rp.200.000</p>
+                  <a href="#" class="btn btn-primary">Tambah <br>
+                    <i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AKHIR CARD GAMBAR -->
+
+      <!-- TABLE -->
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Jumlah</th>
+            <th scope="col">SKU</th>
+            <th scope="col">Harga Satuan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Kaos Polos Putih</td>
+            <td>100pcs</td>
+            <td>@mad</td>
+            <td>Rp.150.000</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Kaos Putih Lengan Pendek</td>
+            <td>20pcs</td>
+            <td>@cuy</td>
+            <td>Rp.180.000</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Kaos Polos Hitam</td>
+            <td>50pcs</td>
+            <td>@fat</td>
+            <td>Rp.175.000</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Kemeja Lengan Panjang</td>
+            <td>25pcs</td>
+            <td>@break</td>
+            <td><Rp class="250"></Rp>.000</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Kemeja Putih</td>
+            <td>10pcs</td>
+            <td>@rest</td>
+            <td>200.000</td>
+          </tr>
+        </tbody>
+      </table>
+       
+      <!-- AKHIR TABLE -->
+
+      
+</body>
+</html>
